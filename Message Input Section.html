@@ -1,0 +1,36 @@
+<div class="chat-input">
+  <button class="emoji-button">😊</button>
+  <input type="text" id="messageInput" placeholder="Type a message...">
+  <button class="send-button" id="sendMessageBtn">Send</button>
+</div>
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--border);
+  background: var(--background);
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  outline: none;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}
+
+.emoji-button,
+.send-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: #4f8cff;
+}
+
+.emoji-button:hover,
+.send-button:hover {
+  color: #1e60d9;
+}
