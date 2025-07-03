@@ -1,0 +1,57 @@
+@media (max-width: 800px) {
+    .sidebar {
+        width: 70px;
+        min-width: 70px;
+        padding: 0;
+    }
+    .sidebar-header,
+    .search-box,
+    .contact-info,
+    .contact-last {
+        display: none;
+    }
+    .contact {
+        justify-content: center;
+        padding: 0.75rem 0;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100vw;
+        min-width: 0;
+        height: 60px;
+        flex-direction: row;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 60px;
+    }
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        border-bottom: none;
+        border-right: 1px solid var(--border);
+        padding: 0.3rem 0.5rem;
+    }
+    .chat-area {
+        flex: 1;
+        min-height: 0;
+    }
+    .chat-header {
+        padding: 0.7rem;
+    }
+    .chat-thread {
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+    }
+    .message-input-section {
+        padding: 0.7rem;
+    }
+}
