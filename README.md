@@ -1,6 +1,4 @@
-# Velandev-BOOTSTRAP-Assignment
-# Chat App Web UI
-
+**CHAT APP UI**
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -317,21 +315,21 @@
             </div>
             <ul class="contacts" id="contactsList">
                 <li class="contact" data-name="Vishal">
-                    <div class="avatar">A<span class="status-dot"></span></div>
+                    <div class="avatar">V<span class="status-dot"></span></div>
                     <div class="contact-info">
                         <div class="contact-name">Vishal</div>
                         <div class="contact-last">Hey, how are you?</div>
                     </div>
                 </li>
                 <li class="contact" data-name="Nidish">
-                    <div class="avatar">B</div>
+                    <div class="avatar">N</div>
                     <div class="contact-info">
                         <div class="contact-name">Nidish</div>
                         <div class="contact-last">See you at 5!</div>
                     </div>
                 </li>
                 <li class="contact" data-name="Dakshina">
-                    <div class="avatar">C<span class="status-dot"></span></div>
+                    <div class="avatar">D<span class="status-dot"></span></div>
                     <div class="contact-info">
                         <div class="contact-name">Dakshina</div>
                         <div class="contact-last">👍</div>
@@ -342,7 +340,7 @@
         <!-- Chat Area -->
         <main class="chat-area">
             <div class="chat-header">
-                <div class="avatar">A<span class="status-dot"></span></div>
+                <div class="avatar">V<span class="status-dot"></span></div>
                 <div>
                     <div class="contact-name" id="chatContactName">Vishal</div>
                     <div class="contact-last" id="chatContactStatus">Online</div>
@@ -350,7 +348,7 @@
             </div>
             <div class="chat-thread" id="chatThread">
                 <div class="message-row">
-                    <div class="avatar" style="width:32px;height:32px;font-size:1rem;">A</div>
+                    <div class="avatar" style="width:32px;height:32px;font-size:1rem;">V</div>
                     <div class="message-bubble">Hi there! 👋</div>
                     <div class="message-time">09:00</div>
                 </div>
@@ -360,7 +358,7 @@
                     <div class="message-time">09:01</div>
                 </div>
                 <div class="message-row">
-                    <div class="avatar" style="width:32px;height:32px;font-size:1rem;">A</div>
+                    <div class="avatar" style="width:32px;height:32px;font-size:1rem;">V</div>
                     <div class="message-bubble">How's your day?</div>
                     <div class="message-time">09:02</div>
                 </div>
